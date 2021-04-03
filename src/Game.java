@@ -24,9 +24,7 @@ public class Game extends JPanel {
   }
 
   public Game() {
-    addKeyListener(
-      new KeyListener() {
-
+    addKeyListener(new KeyListener() {
         @Override
         public void keyTyped(KeyEvent e) {}
 
@@ -72,7 +70,7 @@ public class Game extends JPanel {
   }
 
   public static void main(String[] args) throws InterruptedException {
-    JFrame frame = new JFrame("Mini Tennis");
+    JFrame frame = new JFrame("Poing");
     Game game = new Game();
     
     frame.add(game);
